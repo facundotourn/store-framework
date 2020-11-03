@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "provider",
       "shelf",
       "responsive-layout.desktop#desktop",
       "responsive-layout.mobile#mobile",

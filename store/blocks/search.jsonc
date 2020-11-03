@@ -1,6 +1,9 @@
 {
   "store.search": {
-    "blocks": ["search-result-layout"]
+    "blocks": [
+      "provider",
+      "search-result-layout"
+    ]
   },
   "search-result-layout": {
     "blocks": [
@@ -11,6 +14,7 @@
   },
   "search-result-layout.desktop": {
     "children": [
+      "provider",
       "breadcrumb.search",
       "search-title.v2",
       "flex-layout.row#top",
